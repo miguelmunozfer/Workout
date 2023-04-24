@@ -16,7 +16,7 @@ WorkoutSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'WorkoutSDK', :git => 'https://github.com/miguelmunozfer/WorkoutSDK'
+pod 'WorkoutSDK', :git => 'https://github.com/miguelmunozfer/Workout'
 ```
 
 Add the following lines to the end of the podfile file
@@ -39,15 +39,6 @@ Use your MyVitale credentials for initiating SDK. Your user_id must be permanent
 
 ```swift
 WorkoutSDK.sharedInstance.start(with: "USER_ID", appID: "APP_ID", password: "PASSWORD")
-
-```
-
-### Show ecare module
-
-
-```swift
-WorkoutSDK.sharedInstance.showEcareController()
-
 
 ```
 

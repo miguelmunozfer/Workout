@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Miguel Muñoz' => 'miguel.munoz@myvitale.com' }
-  s.source           = { :git => 'https://github.com/miguelmunozfer/WorkoutSDK.git', :tag => "1.1" }
+  s.source           = { :git => 'https://github.com/miguelmunozfer/Workout.git', :tag => "1.1" }
   # s.social_media_url = 'https://twitter.com/mmunozfer'
   # s.resource = 'VitaleSDK.xcframework'
   # s.resources = "**/en.lproj"
