@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/miguelmunozfer/Workout.git', :tag => "1.1" }
   # s.social_media_url = 'https://twitter.com/mmunozfer'
   # s.resource = 'VitaleSDK.xcframework'
-  # s.resources = "**/en.lproj"
+  s.resources = ["**/*.lproj", "**/*.strings"]
   s.ios.deployment_target = '11.0'
   s.vendored_frameworks = 'TrainingSDK.xcframework', 'WeFitterLib.xcframework'
   s.dependency 'Alamofire', '5.4.0'
